@@ -5,6 +5,11 @@ public class TipCalculator {
 
         System.out.println("How many people are in your group: ");
         int peopleInGroup = scan.nextInt();
+
+        System.out.println("What's the tip percentage? (0-100): ");
+        int tipPercentage = scan.nextInt();
+
+
         double cost;
 
         while (cost != -1.00){
